@@ -14,3 +14,7 @@ userName = input('Please enter you name: ')
 distance = input('Please enter a distance in km: ')
 distanceMile = float(distance)/1.609
 print(f'Hi {userName.title()}! {distance}km is equivalent to {round(distanceMile,2)}')
+
+my_name = "Gislain"
+print(my_name[::-1])
+print(len(my_name))
